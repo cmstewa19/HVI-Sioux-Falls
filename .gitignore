@@ -1,48 +1,5 @@
-# --- raster data ---
-*.tif
-*.tiff
-*.img
-*.aux.xml
-*.tfw
-*.ovr
+# raw data
+data_raw/**
 
-# --- vector/shapefiles ---
-*.shp
-*.shx
-*.dbf
-*.prj
-*.cpg
-*.sbn
-*.sbx
-*.qpj
-*.geojson
-
-# --- temp files ---
-*.xml
-*.lock
-*.bak
-*.tmp
-*.log
-
-# --- output ---
-outputs/maps/*.aux.xml
-outputs/maps/*.tif
-outputs/maps/*.ovr
-
-# --- NHGIS raw data ---
-nhgis*
-*_codebook.txt
-*_blck_grp.csv
-*_tract.csv
-
-# --- python ---
-*.pyc
-venv/
-.env/
-*.env
-.envrc
-
-# --- QGIS temporary files ---
-.qgis2/
-.qgz~
-.qgs~
+# system files
+.DS_Store
