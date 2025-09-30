@@ -1,17 +1,4 @@
-# --- OS / Editor / System files ---
-.DS_Store
-Thumbs.db
-desktop.ini
-__pycache__/
-.ipynb_checkpoints/
-.vscode/
-.idea/
-
-# --- Data folders ---
-data_raw/**
-!data_raw/README.md          
-
-# --- Raster data ---
+# --- raster data ---
 *.tif
 *.tiff
 *.img
@@ -19,7 +6,7 @@ data_raw/**
 *.tfw
 *.ovr
 
-# --- Vector / Shapefile components ---
+# --- vector/shapefiles ---
 *.shp
 *.shx
 *.dbf
@@ -30,40 +17,30 @@ data_raw/**
 *.qpj
 *.geojson
 
-# --- Compressed archives ---
-*.zip
-*.tar
-*.tar.gz
-*.7z
-
-# --- Intermediate or temporary files ---
+# --- temp files ---
 *.xml
 *.lock
 *.bak
 *.tmp
 *.log
 
-# --- Output maps and analysis cache ---
+# --- output ---
 outputs/maps/*.aux.xml
 outputs/maps/*.tif
 outputs/maps/*.ovr
 
-# --- NHGIS specific raw files ---
+# --- NHGIS raw data ---
 nhgis*
 *_codebook.txt
 *_blck_grp.csv
 *_tract.csv
 
-# --- Large notebooks / checkpoints ---
-*.ipynb_checkpoints
-*.ipynb~
-
-# --- Python environment files ---
+# --- python ---
+*.pyc
 venv/
 .env/
 *.env
 .envrc
-*.pyc
 
 # --- QGIS temporary files ---
 .qgis2/
