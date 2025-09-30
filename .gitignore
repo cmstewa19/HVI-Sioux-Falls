@@ -1,5 +1,9 @@
 # raw data
-data_raw/**
+data_raw/archive/*
+data_raw/boundaries/*
+data_raw/census/*
+data_raw/infrastructure/*
+data_raw/raster/*
 
 # system files
 .DS_Store
