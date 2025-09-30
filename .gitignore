@@ -1,7 +1,3 @@
-# ====================================================
-# Heat Vulnerability Index (HVI) Project - .gitignore
-# ====================================================
-
 # --- OS / Editor / System files ---
 .DS_Store
 Thumbs.db
@@ -12,9 +8,8 @@ __pycache__/
 .idea/
 
 # --- Data folders ---
-# Exclude all raw data and large GIS rasters
 data_raw/**
-!data_raw/README.md          # Keep only the data source readme
+!data_raw/README.md          
 
 # --- Raster data ---
 *.tif
@@ -48,7 +43,7 @@ data_raw/**
 *.tmp
 *.log
 
-# --- Output maps and analysis cache (optional keep only final ones) ---
+# --- Output maps and analysis cache ---
 outputs/maps/*.aux.xml
 outputs/maps/*.tif
 outputs/maps/*.ovr
@@ -74,7 +69,3 @@ venv/
 .qgis2/
 .qgz~
 .qgs~
-
-# ====================================================
-# End of .gitignore
-# ====================================================
